@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+header img{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+header button{
+    color: white;
+    float: right;
+    border: none;
+    background-color: RGB(228 8 20);
+    border-radius: 5px;
+    height: 2em;
+    width: 5em;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.background{
+    width: 1520px;
+    height: 700px;
+    content:"";
+    background-color: rgb(0, 0, 0, 0.6);
+    
+}
+.hero{
+    width: 1520px;
+    height: 700px;
+    background-image: url(img/Netflix-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-position: 20% 20%;
+}
+
+@media screen and (max-width: 600px) {
+    .hero, .background, .header, .hero-text{width: 1660px; height: 1500px;}
+    .get-started, .hero-text h1, p {width:1200px ; margin-left: -250px;height: 200px; }
+    .hero-text h1{  font-size: 90px; font-weight: bold;margin-bottom: 80px;}
+    .hero-text p{ font-size: 60px;  }
+    .get-started { display: block;}
+    #email{width: 900px;margin-left: -250px;height: 150px; }
+    ::placeholder{ font-size: 40px; font-weight: 900;color: white;}
+    #start{width: 450px;height: 150px; margin-top: 400px; margin-left: -700px;font-size: 50px;}
+}
+
+.hero-text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Netflix Sans, Helvetica Neue, Segoe UI, Roboto";
+    font-size: larger;
+    margin: 200px 400px;
+    color: white;
+    
+}
+
+.get-started{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.get-started input{
+    height: 50px;
+    width: 400px;
+    background-color:rgb(0, 0, 0, 0.6);
+    border: 1px solid rgb(90, 86, 86);
+    padding: 20px;
+    margin-right: 10px;
+}
+::placeholder{
+    color: white;
+}
+.get-started button{
+    color: white;
+    border: none;
+    background-color: RGB(228 8 20);
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+.hir{
+    margin: 0;
+    z-index: 2;
+    border-top: 8px solid grey;
+}
+
+.backi{
+    margin-top: 0px;
+    background-color: black;
+    z-index: -3;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .backi{width: 1660px; }
+    #sectiona{height: 1800px; }
+    #meg { margin-left: 400px; width: 800px; margin-top: 300px; height: 500px; }
+    #enjoy{font-size: 90px; font-weight: bold; text-align: center;}
+    #smart{font-size: 50px; font-weight: 600;width: 850px;margin-left: -50px;text-align: center; }
+    #sectionab{margin-top: -300px; width: 800px; margin-left: 400px;}
+    #tv{margin-left: 420px;}
+    #vide{margin-left: 500px;}
+}
+
+.sectiona{
+    margin: 0;
+    height: 600px;
+
+}
+
+.sectionaa{
+    color: white;
+    border: 2px solid red;
+    margin-left: 100px;
+    margin-top: 400px;
+    margin-bottom: 200px;
+    float: left;
+}
+.sectionab{
+    border: 4px solid beige;
+    margin-right: 200px;
+    padding: 0;
+    height: 500px;
+    float: right;
+}
+
+.tv{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    margin-top: 40px;
+    
+}
+.vide{
+    position: relative;
+    z-index: 1;
+    margin-top: 120px;
+    margin-left: 70px;
+    border: 4px solid beige;
+}
+
+.sectionb{
+    margin-bottom: 200px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    #sectionb{height: 1200px; }
+    #sectionbb { margin-left: 400px; width: 700px; margin-top: 200px; height: 500px; }
+    #sectionba { margin-left: 900px; width: 900px; margin-top: 500px; height: 500px; }
+    #sectionba h2{font-size: 90px; font-weight: bold;width: 950px; text-align: center; margin-left: 300px;}
+    #sectionba p{font-size: 50px; font-weight: 600;width: 850px;margin-left: 350px;text-align: center; }
+}
+
+#n{
+    margin-bottom: 200px;
+}
+
+.icon{
+    border: 2px solid grey;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 300px;
+    margin-left: 100px;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    padding: 1%;
+    background-color: black;
+}
+
+.icon img{
+    
+    width: 20%;
+    margin-right: 2%;
+    padding: 0;
+}
+.stranger{
+    border: 4px solid beige;
+    width: 45%;
+    color: white;
+    padding-top: 10px;
+}
+
+.secphon{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    
+}
+.sectionbb{
+    float: left;
+    border: 4px solid beige;
+    width: 35%;
+    margin-left: 100px;
+    padding: 0;
+    height: 500px;
+}
+.sectionba{
+    color: white;
+    border: 2px solid red;
+    float: right;
+    margin-right: 200px;
+    margin-top: 200px;
+    width: 30%;
+}
+
+#n{
+    margin-top: 600px;
+}
+.every{
+    margin-left: 250px;
+    height: 400px;
+    padding: 50px;
+    border: 4px solid beige;
+
+}
+
+@media screen and (max-width: 600px) {
+    #every{height: 500px; width: 1000px;}
+    #every h2{font-size: 90px; font-weight: bold;width: 950px; text-align: center; margin-left: -100px;}
+    #every p{font-size: 50px; font-weight: 600;width: 1000px;margin-left: -150px;text-align: center; }
+}
+
+.kid{
+    height: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    #kid{height: 1500px; width: 1000px;}
+    #kida{font-size: 90px; font-weight: bold;width: 1000px; text-align: center; margin-left: 200px;}
+    #kidb{font-size: 50px; font-weight: 600;width: 1000px;margin-left: 200px;text-align: center; }
+    #pki{width: 1300px; height: 900px;}
+}
+
+.kid img{
+    height: 500px;
+    margin-left: 100px;
+}
+
+.kids{
+}
+
+.kida{
+    margin-top: 250px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.kidb{
+    font-weight: 400;
+    font-size: 25px;
+    width: 600px;
+}
+
+.frequent{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom:100px ;
+}
+
+.frequenta{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #frequenta{ font-size: larger;}
+    .accordion button{ font-size: 60px; }
+    .accordion{ font-size: 60px; }
+}
+
+.accordion{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom:100px ;
+}
+
+.accordion-item{
+    width: 1300px;
+}
+
+@media screen and (max-width: 600px) {
+    #member{ font-size: 40px; font-weight: 200;}
+    .accordion button{ font-size: 60px; }
+    .accordion{ font-size: 60px; }
+    .form{margin-left: 100px;}
+}
+
+.member{
+    font-size: larger; 
+}
+
+#email::placeholder {
+    color: grey;
+  }
+.ready{
+   margin-bottom: 100px;
+  }
+
+footer{
+    color: grey;
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 300px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 600px) {
+    #frequenta{ font-size: larger;}
+    .accordion button{ font-size: 60px; }
+    .accordion{ font-size: 60px; }
+}
+
+footer h6{
+    text-decoration: underline;
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-right: 300px;
+    margin-left: -30px;
+    
+}
+
+.faq ul li{
+    list-style: none;
+    font-weight: bd;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.faq ul li a{
+    color: grey;
+    border-bottom: 1px solid grey;
+    text-decoration: none; 
+    padding-bottom: 0;
+}
+
+.eng{
+    color: white;
+    background-color: rgb(18, 17, 17);
+    width: 130px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
